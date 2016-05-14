@@ -1,0 +1,49 @@
+{
+  "name": "modern-mean-users-server",
+  "version": "0.0.1",
+  "description": "Module for users server.",
+  "main": "dist/",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-mean/users-server.git"
+  },
+  "keywords": [
+    "Core"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modern-mean/users-server/issues"
+  },
+  "homepage": "https://github.com/modern-mean/users-server#readme",
+  "dependencies": {
+    "acl": "~0.4.9",
+    "crypto": "0.0.3",
+    "express": "^4.13.4",
+    "generate-password": "~1.1.1",
+    "mongoose": "^4.4.14",
+    "multer": "~1.1.0",
+    "owasp-password-strength-test": "~1.3.0",
+    "passport": "~0.3.2",
+    "passport-facebook": "~2.1.0",
+    "passport-github": "~1.1.0",
+    "passport-google-oauth": "~1.0.0",
+    "passport-jwt": "~2.0.0",
+    "passport-linkedin": "~1.0.0",
+    "passport-local": "~1.0.0",
+    "passport-paypal-openidconnect": "~0.1.1",
+    "passport-twitter": "~1.0.4",
+    "validator": "~5.1.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "modern-mean-build-gulp": "github:modern-mean/build-gulp",
+    "modern-mean-core-server": "github:modern-mean/core-server"
+  }
+}
